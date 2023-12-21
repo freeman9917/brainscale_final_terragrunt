@@ -25,6 +25,7 @@ dependency "eks" {
        cluster_endpoint = "sample-cluster_endpoint"
        cluster_certificate_authority_data = "YnJhaW5zY2FsZQ=="
        cluster_name = "sample-cluster_name"
+       root_app_path = "./root_chart_dev"
      }
 }
 
@@ -39,5 +40,6 @@ inputs = {
   cluster_endpoint = dependency.eks.outputs.cluster_endpoint
   cluster_certificate_authority_data            = dependency.eks.outputs.cluster_certificate_authority_data
   cluster_name             = dependency.eks.outputs.cluster_name
+  root_app_path = "./root_chart_dev"
 }
 

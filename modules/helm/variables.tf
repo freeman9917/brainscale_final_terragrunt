@@ -3,7 +3,7 @@ variable "cluster_endpoint" {
     default = ""
 }
 
-variable "cluster_certificate_authority_data" {
+variable "authority_data" {
     type = string
     default = ""
 }
@@ -18,7 +18,7 @@ variable "kubernetes_namespace" {
     default = ""
 }
 
-variable "root_app_path" {
+variable "app_path" {
     type = string
     default = ""
 }

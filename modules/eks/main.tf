@@ -1,12 +1,14 @@
 module "eks" {
   source  = "terraform-aws-modules/eks/aws"
-  version = "19.15.1"
+  version = "20.8.4"
 
   cluster_name                   = "${var.env_prefix}"
   cluster_endpoint_public_access = true
   node_security_group_tags = {
     "kubernetes.io/cluster/${var.env_prefix}" = null
   }
+
+ enable_cluster_creator_admin_permissions = true  
 
   cluster_addons = {
     coredns = {

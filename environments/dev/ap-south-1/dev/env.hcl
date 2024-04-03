@@ -7,8 +7,8 @@ locals {
   pub2_subnet = "10.2.102.0/24"
   priv1_subnet = "10.2.1.0/24"
   priv2_subnet = "10.2.2.0/24"
-  az1 = "ap-south-1a" 
-  az2 = "ap-south-1b" 
+  az1 = "eu-central-1a" 
+  az2 = "eu-central-1b" 
 }
 
 

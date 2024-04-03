@@ -19,20 +19,20 @@ locals {
 }
 
 #Configure Terragrunt to automatically store tfstate files in an S3 bucket
-remote_state {
-  backend = "s3"
-  config = {
-    encrypt        = true
-    bucket         = "${local.account_name}-${local.region}-tr-tf-state"
-    key            = "${path_relative_to_include()}/terraform.tfstate"
-    region         = local.region
-    dynamodb_table = "vahe-lock-table"
-  }
-  generate = {
-    path      = "backend.tf"
-    if_exists = "overwrite_terragrunt"
-  }
-}
+# remote_state {
+#   backend = "s3"
+#   config = {
+#     encrypt        = true
+#     bucket         = "${local.account_name}-${local.region}-tr-tf-state"
+#     key            = "${path_relative_to_include()}/terraform.tfstate"
+#     region         = local.region
+#     dynamodb_table = "vahe-lock-table"
+#   }
+#   generate = {
+#     path      = "backend.tf"
+#     if_exists = "overwrite_terragrunt"
+#   }
+# }
 
 
 
@@ -46,8 +46,10 @@ provider "aws" {
 
   # Only these AWS Account IDs may be operated on by this template
 }
+
 EOF
 }
+
 
 
 

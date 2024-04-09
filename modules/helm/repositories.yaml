@@ -5,7 +5,31 @@ configs:
       url: git@github.com/freeman9917/argocd.git
       sshPrivateKey: |
         -----BEGIN RSA PRIVATE KEY-----
-
+        MIIEpAIBAAKCAQEAmax4hChEOPKW7UALRB+9Xr4OTp+c2dVgViUg8dFiqI4cc0cS
+        CzDnfk4Xz8ICQrr7ymvXpZEvQ/2uIrm58aCrCbXY5z/Wf2jWKcO/k6ZsPeWmNiu8
+        O4JvF49c4GcP7Mi156OU31m0Il/srRHmtyFEdhz0zWreOpMAvigZwLmprYLs4puV
+        bA2/E/pC073Dv6VGwdYXWYp7UgHNyyD5An5xdEcmP1Hoen1qH1Ac1+5Hah9SVrK5
+        EqValPiZUsyPn04t3lZ4WrS8Y8cR+dhPPRBZtd6R13VFeC/tkeN4rirzQCDncfI4
+        tAEVrGnaQYAOMfG3G4R1CuQIi7Nwst3xntUp2wIDAQABAoIBAQCVNYo6v6ImLR1w
+        NPv7ZFoJsL3Rh1bTh0OnwRsw0J5bjMiBAaO6a/yJfafPGM/7HPS3wWg8ITDkcl7u
+        5qhtvRP1NLTrK+fIA/HV0XOlGDUHEIEHHgYBPg9Br/h9BnTG8sb0p7c3+jBWJA94
+        p+X9L/b6O/lRro8iDnPtLqB6qYrfpbvRS+cy0JtyQ4fz9uJ8PhPN4SNoIiJGaKsn
+        FJdExvmWTZrRY6QOQS+5lrORIfM47GebP+3srA1ypXkLWw21M1sUl7YZP2eukTjR
+        xDJN01l6WqbbZaF/gzTOnorQK+T3nafigB0qn8+ff13RsJ5u1kNLKajtQCevjyxU
+        03Beh6JpAoGBAMdTC4k6GkdOwDv4m/cEOtSDGDdQuIN+vwLk48973AH7QJirDWPf
+        Bk5TXObR/NxKL8RvLkOpzOkvGvBxsjzjhnR2dwtaXnCeQCxuymnwkeAhMXk1upt9
+        LsQAkUXUYg0H9Nr/FW5lGYEF1vriP8d7MlIb7ZLo8cipjNqbW3WiyWtdAoGBAMVe
+        e3vWIRixmBwC5Y51XzSj1nBYSzOeMVzE0wc4P3+nBUTqHTTwWNfV+1tsHm9n4sZg
+        qXZN5SCRTqo5RJwCOU96gSJitxhov058KSr1SpeaI5MkX1MbEdEMe2CFki5Trec8
+        EoDsqU10AwbDAFdSwm1pttFu5jRpJ0hg0apkCs6XAoGAOwrxbtvELv032kvhP0GE
+        f7C5eqExltnzkNLmXG6PFBMt5ks88yl8P7VX3pOzODnNfn2Ekcx5g1VNwI2dQ4YO
+        LO9ugfFp6igmUEMdOFZnj6GlewccWLSzJqIYZjvsM3n44OoQmhveeyaUsMpWJCvt
+        Ev9s10ijXlJDA/pjFCx9R40CgYEAoOk59amLTC2mXNgDvdR1bV5R+0AQ96F2jzKs
+        9grmwjUyd5ADheCaHkYH6u5IFf31hlTSdHBnaNju8JtGE4dAoEq5M4aVziHALsXN
+        boeTa+wwKsuRqBi+utfZUsUze++fLZHtaA0KrunxebbL9WW0vC1e7nri1kIQ09KT
+        vb5YjTsCgYA40ywuEA0YjGbavzFhxrfAHBzhWPVxp5CAqxHQrZzj0oWah0BMixtj
+        lQjbgOZoB8/NvuSQD9kMy1aVz6jpMlBPnaVV5rpJiJCOSypZqAM1XRi+F3FOpOO0
+        2vm3WBuBE91WMbY0y76fOPFoUahE+LTewBp9oz6IjQHqpGA1J4ARWg==
         -----END RSA PRIVATE KEY-----
   repositories:
     private-repo:
